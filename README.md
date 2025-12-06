@@ -35,7 +35,7 @@ The CLI will guide you through selecting:
 ### Non-Interactive Mode
 
 ```bash
-create-rust-web my-app \
+begin-rs-web my-app \
   --database postgres \
   --auth both \
   --google-oauth true \
@@ -45,7 +45,7 @@ create-rust-web my-app \
 ### Available Options
 
 ```
-Usage: create-rust-web [OPTIONS] [NAME]
+Usage: begin-rs-web [OPTIONS] [NAME]
 
 Arguments:
   [NAME]  Name of the project
