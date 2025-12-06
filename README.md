@@ -1,6 +1,6 @@
 # Rust Web App Template Generator
 
-A powerful CLI tool for bootstrapping production-ready Rust web applications with Axum, authentication, user management, and database support.
+A CLI tool for bootstrapping production-ready Rust web applications with Axum, authentication, user management, and database support.
 
 ## Features
 
@@ -15,18 +15,15 @@ A powerful CLI tool for bootstrapping production-ready Rust web applications wit
 ## Installation
 
 ```bash
-cd rust-app-template
-cargo build --release
+cargo install begin-rs-web
 ```
-
-The binary will be available at `target/release/create-rust-web`
 
 ## Usage
 
 ### Interactive Mode (Recommended)
 
 ```bash
-create-rust-web
+begin-rs-web
 ```
 
 The CLI will guide you through selecting:
