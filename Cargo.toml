@@ -1,0 +1,32 @@
+[package]
+name = "begin-rs-web"
+version = "0.1.0"
+edition = "2021"
+authors = ["Eze Sunday <mailstoeze@gmail.com>"]
+description = "A CLI tool for bootstrapping production-ready Rust web applications with Axum, authentication, and database support"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ezesundayeze/begin-rs-web"
+homepage = "https://github.com/ezesundayeze/begin-rs-web"
+documentation = "https://docs.rs/begin-rs-web"
+keywords = ["cli", "web", "axum", "template", "generator"]
+categories = ["command-line-utilities", "web-programming", "development-tools"]
+readme = "README.md"
+rust-version = "1.75"
+
+[[bin]]
+name = "begin-rs-web"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+dialoguer = "0.11"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.35", features = ["full"] }
+anyhow = "1.0"
+colored = "2.1"
+indicatif = "0.17"
+console = "0.15"
+
+[dev-dependencies]
+tempfile = "3.8"
