@@ -1,6 +1,6 @@
 [package]
 name = "begin-rs-web"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Eze Sunday <mailstoeze@gmail.com>"]
 description = "A CLI tool for bootstrapping production-ready Rust web applications with Axum, authentication, and database support"
